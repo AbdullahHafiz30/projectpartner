@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/background1.jpg);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background-color: #fcfcfc;
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navigation .btnlogout {
+    width: 100px;
+    height: 35px;
+    background: transparent;
+    border: 2px solid #0707fb;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #0707fb;
+    font-weight: 500;
+    margin-left: 10px;
+    transition: .5s
+}
+
+.navigation .btnlogout:hover {
+    background: #fdfdfda9;
+    color: #0707fb;
+}
+
+.title input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+
+.date input {
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+}
+
+.member input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+}
+
+.Create button {
+    width: 150px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid #000000;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 500;
+    margin-left: 10px;
+    transition: .5s
+}
+
+.Create button:hover {
+    background: #000000a9;
+    color: #ffffff;
+}
+
+.title1Erro,
+.startdatErro,
+.enddateErro,
+.memberError {
+    font-weight: 100;
+    color: red;
+}

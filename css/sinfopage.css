@@ -1,0 +1,108 @@
+.sinfo {
+    position: absolute;
+    width: 1600px;
+    height: 700px;
+    background: transparent;
+    font-family: 'Times New Roman';
+    border: 2px soild rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    display: inline-table;
+    overflow: hidden;
+    display: inline;
+
+}
+
+body {
+    background-image: url(../images/background1.jpg);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navigation .btnlogout {
+    width: 100px;
+    height: 35px;
+    background: transparent;
+    border: 2px solid #0707fb;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #0707fb;
+    font-weight: 500;
+    margin-left: 10px;
+    transition: .5s
+}
+
+.navigation .btnlogout:hover {
+    background: #fdfdfda9;
+    color: #0707fb;
+}
+
+table,
+th,
+tr,
+td {
+    border-collapse: collapse;
+}
+
+.table_header {
+    width: 100%;
+    height: 10%;
+    background: #fff4;
+    padding: .8rem 1rem;
+}
+
+.table_body {
+    height: calc(89% - .8rem);
+    width: 95%;
+    background: #fffb;
+    margin: .8rem auto;
+    border-radius: .6rem;
+    font-size: large;
+    overflow: auto;
+}
+
+.table_body::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.table_body::-webkit-scrollbar-thumb {
+    border-radius: .5rem;
+    background-color: #0004;
+    visibility: hidden;
+}
+
+.table_body:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+}
+
+table tr {
+    background-color: #aeaef08c;
+}
+
+table th {
+    max-width: 400px;
+    height: 80px;
+    word-wrap: break-word;
+    background-color: #1c1cfb70;
+}
+
+body tr:nth-child(even) {
+    background-color: #0000000d;
+}
+
+body tr:hover {
+    background-color: #fff6;
+}
+
+td {
+    text-align: center;
+}

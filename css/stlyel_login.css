@@ -1,0 +1,98 @@
+.Login {
+    width: 500px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.71);
+    background-position: center;
+    background-size: contain;
+    border: 10px;
+    border-color: rgba(95, 95, 103, 0.307);
+    border-style: solid;
+    padding: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+body {
+    background-image: url(../images/background1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 1000;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+}
+
+.Forgot {
+
+    background-color: white;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 4px;
+    text-decoration: none;
+
+}
+
+.Signup {
+
+    background-color: white;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 4px;
+    text-decoration: none;
+    width: 98%;
+
+}
+
+.llogin {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 4px;
+    text-decoration: none;
+    width: 98%;
+
+}
+
+.ID_Student input {
+    width: 98%;
+    height: 30px;
+    border: 2px;
+    border-color: rgb(82, 79, 97);
+    border-style: solid;
+    justify-content: center;
+
+}
+
+.ID_Supervisor input {
+    width: 98%;
+    height: 30px;
+    border: 2px;
+    border-color: rgb(82, 79, 97);
+    border-style: solid;
+    position: relative;
+}
+
+.Password input {
+    width: 98%;
+    height: 30px;
+    border: 2px;
+    border-color: rgb(82, 79, 97);
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}

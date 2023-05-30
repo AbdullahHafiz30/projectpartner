@@ -1,0 +1,68 @@
+.aboutproject{
+    position: absolute;
+    width: 1600px;
+    height: 200px;
+    background: transparent;
+    font-family: 'Times New Roman';
+    border: 2px soild rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    background-image: url(../images/background1.jpg);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.aboutproject p{
+    position: relative;
+    text-align: justify;
+    font-size: 30px;
+    color: #0707fb;
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.slogen img{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-left: 75px;
+}
+
+.slogen{
+    font-size: 20px;
+    font-family: 'Pacifico';
+    justify-content: middle;
+    align-items: center;
+    white-space: nowrap;
+    margin-left: 10px;
+}
+
+.slogen h1{
+    margin-top: -40px;
+    color: #0404dc;
+}
+
+.slogen h4{
+    margin-left: 80px;
+    color: #0404dc;
+}
+
+td{
+    align-items: center;
+}
